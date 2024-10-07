@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+header{
+    background-color:hsl(218, 23%, 16%) ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+main h1{
+    font-size: 40px;
+    color:hsl(193, 38%, 86%) ;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+main{
+    background-color:hsl(218, 23%, 16%) ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    max-width: 800px;
+    background-color:hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 35px 30px;
+    color: hsl(193, 38%, 86%) ;
+    margin: 0 20px;
+}
+.adviceID{
+    font-size: 25px;
+    color:hsl(193, 38%, 86%) ;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.advice{
+    font-size: 28px;
+    color:hsl(193, 38%, 86%) ;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#btn{
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    background-color:hsl(150, 100%, 66%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 30px;
+}
+#btn img{
+    height: 50px;
+    width: 50px;
+}
+#btn:hover{
+    transform: scale(1.2); 
+}
